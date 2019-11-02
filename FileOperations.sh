@@ -41,3 +41,6 @@ if [ ! -e $fakeFile ]
 then
     echo "$fakeFile doesn't exists"
 fi
+
+echo "contents of the file \n ----------------------"
+echo $file

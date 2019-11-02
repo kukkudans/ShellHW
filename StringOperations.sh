@@ -7,9 +7,14 @@ b="UK";
 #logical AND
 if [ $a = $b ]
 then
-    echo " $a -eq $b : TRUE"
+    echo " $a = $b : TRUE"
 else
-    echo " $a -eq $b : FALSE"
+    echo " $a = $b : FALSE"
+fi
+
+if [ $a = $a ]
+then
+    echo " $a -eq $a  : TRUE"
 fi
 
 c="";

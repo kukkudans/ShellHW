@@ -10,6 +10,7 @@ case $color in
     "RED")
         echo "Red represents violence!"
     ;;
-
+    *)
+        echo "Your color selection is $color"
 esac
 

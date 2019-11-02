@@ -14,7 +14,7 @@ case $option in
         echo "you choose -c"
         ;;
     *)
-        echo "you choose a wront options"
+        echo "you choose a wrong options"
         exit 1;
         ;;
 
